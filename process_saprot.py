@@ -75,8 +75,8 @@ def get_struc_seq(foldseek,
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--seq_path', type=str, default='data/saprot_seq.pt')
-    parser.add_argument('--model_path', type=str, default='/cluster/home/chenqinghua/project/alphaflow/weights/SaProt_650M_PDB')
+    parser.add_argument('--seq_path', type=str, default='./data/saprot_seq.pt')
+    parser.add_argument('--model_path', type=str, default='./weights/SaProt_650M_PDB')
     args = parser.parse_args()
         
     
