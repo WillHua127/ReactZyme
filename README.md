@@ -10,6 +10,12 @@ SaProt tips: If you want to use SaProt, you have to use FoldSeek to get structur
 
 [preprocess_saprot.py](https://github.com/WillHua127/ReactZyme/blob/main/process_saprot.py): contain example of processing saprot features for afbd structures.
 
+[data_utils.py](https://github.com/WillHua127/ReactZyme/blob/main/data_utils.py): dataloader etc.
+
+[mat.py](https://github.com/WillHua127/ReactZyme/blob/main/mat.py): code for MAT for loading model purposes.
+
+[process_mat.py](https://github.com/WillHua127/ReactZyme/blob/main/process_mat.py): contain example of processing MAT features for reactions.
+
 
 ## Citation
 ```bash
