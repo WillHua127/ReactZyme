@@ -41,6 +41,32 @@ You can do time-based esm-unimol training like: CUDA_VISIBLE_DEVICES=0 python tr
 [retrieval.py](https://github.com/WillHua127/ReactZyme/blob/main/retrieval.py): code for MLP evaluation.
 
 
+(2) Train Contrastive:
+
+[train_contra.py](https://github.com/WillHua127/ReactZyme/blob/main/train_contra.py): code for MLP-contrastive training. 
+
+
+[retrieval.py](https://github.com/WillHua127/ReactZyme/blob/main/retrieval.py): code for MLP-contrastive evaluation.
+
+
+
+(3) Train Transformer:
+
+[train_tfmr.py](https://github.com/WillHua127/ReactZyme/blob/main/train_tfmr.py): code for Transformer training. 
+
+
+[retrieval_tfmr.py](https://github.com/WillHua127/ReactZyme/blob/main/retrieval_tfmr.py): code for Transformer evaluation.
+
+
+
+(4) Train Bi-RNN:
+
+[train_rnn.py](https://github.com/WillHua127/ReactZyme/blob/main/train_rnn.py): code for Bi-RNN training. 
+
+
+[retrieval_rnn.py](https://github.com/WillHua127/ReactZyme/blob/main/retrieval_rnn.py): code for Bi-RNN evaluation.
+
+
 
 ## Citation
 ```bash
