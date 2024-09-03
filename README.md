@@ -8,7 +8,9 @@ SaProt tips: If you want to use SaProt, you have to use FoldSeek to get structur
 
 [get_afdb.py](https://github.com/WillHua127/ReactZyme/blob/main/get_afdb.py): contain example of fetching afdb structures for time-based split.
 
-[preprocess_saprot.py](https://github.com/WillHua127/ReactZyme/blob/main/process_saprot.py): contain example of processing saprot features for afbd structures.
+[process_saprot.py](https://github.com/WillHua127/ReactZyme/blob/main/process_saprot.py): contain example of processing saprot features for afbd structures.
+
+[process_mat.py](https://github.com/WillHua127/ReactZyme/blob/main/process_esm.py): contain example of processing ESM features for sequences.
 
 [data_utils.py](https://github.com/WillHua127/ReactZyme/blob/main/data_utils.py): dataloader etc.
 
