@@ -46,8 +46,15 @@ SaProt tips: If you want to use SaProt, you have to use FoldSeek to get structur
 
 
 
+
 (4) Negative samples
 >[prepare_negative.py](https://github.com/WillHua127/ReactZyme/blob/main/prepare_negative.py): code example of preparing negative samples based on reaction SMILES. Once you have the dictionary of negative pairs 'data/negative_mol_dict.pt', you can prepare negative samples for training.
+
+
+(5) Unimol features
+
+> [unimol.ipynb](https://github.com/WillHua127/ReactZyme/blob/main/unimol.ipynb): code example of generating unimol features for reactions.
+
 
 # Python file - train and evaluation
 
