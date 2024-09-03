@@ -30,6 +30,17 @@ SaProt tips: If you want to use SaProt, you have to use FoldSeek to get structur
 [data_utils.py](https://github.com/WillHua127/ReactZyme/blob/main/data_utils.py): dataloader etc.
 
 
+# Python file - train and eval
+
+(1) Train MLP:
+
+[train.py](https://github.com/WillHua127/ReactZyme/blob/main/train.py): code for MLP training. 
+
+You can do time-based esm-unimol training like: CUDA_VISIBLE_DEVICES=0 python train.py --split_type time --mol_embedding_type unimol --pro_embedding_type esm --batch_size 1000
+
+[retrieval.py](https://github.com/WillHua127/ReactZyme/blob/main/retrieval.py): code for MLP evaluation.
+
+
 
 ## Citation
 ```bash
