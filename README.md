@@ -5,6 +5,16 @@ Official Github Repo of ReactZyme ([arxiv-link](https://www.arxiv.org/abs/2408.1
 
 Rawdata can be downloaded from [zendo-reactzyme](https://zenodo.org/records/13635807). Once downloaded, put rawdata into 'data' folder.
 
+(1) Rawdata
+
+There should be 4 rawdata files including: (1) cleaned_uniprot_rhea.tsv; (2) uniprot_molecules.tsv; (3) uniprot_rhea.tsv; (4) rhea_molecules.tsv.
+Additionally, there is a saprot_seq.pt for structure-aware protein sequences for SaProt after running FoldSeek.
+Put these files under the 'data' folder.
+
+(2) Processed data
+
+And there should be 3 splits: (1) time; (2) seq-smi based; (3) mol-smi based. Put time/seq-smi/mol-smi under new_time/new_seq_smi/new_mol_smi folders, respectively. Notice that we only provide positive enzyme-reaction pairs, the design of negative samples remains an open question. Nevertheless, we provide example of negative samples generation in [prepare_negative.py](https://github.com/WillHua127/ReactZyme/blob/main/prepare_negative.py).
+
 # Python file - utils
 
 SaProt tips: If you want to use SaProt, you have to use FoldSeek to get structure-aware sequence representations. This can be annoying. So we provide [processed structure-aware sequences](https://zenodo.org/records/13635807) for our dataset (the 'saprot_seq.pt' file from zendo). Or if you'd like to do it on your own, you can use the function [get_struc_seq](https://github.com/WillHua127/ReactZyme/blob/main/process_saprot.py) from process_saprot.py.
