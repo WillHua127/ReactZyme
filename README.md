@@ -1,9 +1,11 @@
 # [ReactZyme](https://www.arxiv.org/abs/2408.13659)
 Official Github Repo of ReactZyme ([arxiv-link](https://www.arxiv.org/abs/2408.13659)).
 
-Rawdata can be downloaded from [zendo-reactzyme](https://zenodo.org/records/11494913). Once downloaded, put rawdata into 'data' folder.
+Rawdata can be downloaded from [zendo-reactzyme](https://zenodo.org/records/13635807). Once downloaded, put rawdata into 'data' folder.
 
 # Python file - utils
+SaProt tips: If you want to use SaProt, you have to use FoldSeek to get structure-aware sequence representations. This can be annoying. So we provide [processed structure-aware sequences](https://zenodo.org/records/13635807) for our dataset (the 'saprot_seq.pt' file from zendo). Or if you'd like to do it on your own, you can use the function [get_struc_seq](https://github.com/WillHua127/ReactZyme/blob/main/process_saprot.py) from process_saprot.py.
+
 [get_afdb.py](https://github.com/WillHua127/ReactZyme/blob/main/get_afdb.py): contain example of fetching afdb structures for time-based split.
 
 [preprocess_saprot.py](https://github.com/WillHua127/ReactZyme/blob/main/process_saprot.py): contain example of processing saprot features for afbd structures.
