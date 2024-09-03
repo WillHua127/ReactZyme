@@ -30,7 +30,7 @@ SaProt tips: If you want to use SaProt, you have to use FoldSeek to get structur
 [data_utils.py](https://github.com/WillHua127/ReactZyme/blob/main/data_utils.py): dataloader etc.
 
 
-# Python file - train and eval
+# Python file - train and evaluation
 
 (1) Train MLP:
 
