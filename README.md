@@ -1,4 +1,4 @@
-# [ReactZyme](https://www.arxiv.org/abs/2408.13659)
+# ReactZyme[paper](https://www.arxiv.org/abs/2408.13659)
 Official Github Repo of ReactZyme ([arxiv-link](https://www.arxiv.org/abs/2408.13659)).
 
 # Data preparation
