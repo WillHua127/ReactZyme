@@ -1,4 +1,4 @@
-# ReactZyme [[paper](https://www.arxiv.org/abs/2408.13659)]
+# ReactZyme: A Benchmark for Enzyme-Reaction Prediction [[paper](https://www.arxiv.org/abs/2408.13659)]
 ### Official Github repository of ReactZyme ([arxiv-link](https://www.arxiv.org/abs/2408.13659)).
 
 ### Check out for our newest [EnzymeFlow](https://github.com/WillHua127/EnzymeFlow) !!!
